@@ -1,0 +1,17 @@
+Package: areafoliar
+Title: Leaf Area Analysis
+Version: 0.0.0.1
+Authors@R: 
+    person(given = "Paul Efren",
+           family = "Santos Andrade",
+           role = c("aut", "cre"),
+           email = "paulefrens@gmail.com",
+           comment = c(ORCID = "0000-0002-6635-0375"))
+Description: Calculation of leaf area.
+License: MIT + file LICENSE
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
