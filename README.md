@@ -18,11 +18,7 @@ The goal of areafoliar is to …
 You can install the development version of areafoliar like so:
 
 ``` r
-<<<<<<< HEAD
 pak::pak("PaulESantos/areafoliar")
-=======
-# pak::pak("PaulESantos/areafoliar")
->>>>>>> 4befe4c1f5335e270c9e53cb02a37f26187f129d
 ```
 
 ## Example
