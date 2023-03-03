@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "paulefrens@gmail.com",
            comment = c(ORCID = "0000-0002-6635-0375"))
-Description: Calculation of leaf area.
+Description: An interface for the image processing program 'ImageJ', allowing digital image analysis for particle sizes and data management. This package includes a function to write an 'ImageJ' macro which is optimized for a leaf area analysis by default. This a version modified of LeafArea package(https://github.com/mattocci27/LeafArea), adding secondary functions to complete the data processing requirement of custom research project.
 License: MIT + file LICENSE
 Suggests: 
     testthat (>= 3.0.0)
