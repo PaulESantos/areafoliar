@@ -13,7 +13,8 @@ map_leaf_area(
   know.pixel.distance = 2.54,
   low.size = 0.005,
   trim.pixel = 100,
-  trim.pixel2 = 150
+  trim.pixel2 = 150,
+  ...
 )
 }
 \arguments{
@@ -34,6 +35,8 @@ map_leaf_area(
 \item{trim.pixel}{The number of pixels to trim}
 
 \item{trim.pixel2}{The number of pixels to trim}
+
+\item{...}{aditional argument of run_ij.}
 }
 \value{
 A dataframe containing the ID and LeafArea

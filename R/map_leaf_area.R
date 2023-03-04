@@ -13,6 +13,7 @@
 #' @param low.size The minimum size of a leaf in cm2
 #' @param trim.pixel The number of pixels to trim
 #' @param trim.pixel2 The number of pixels to trim
+#' @param ... aditional argument of run_ij.
 #' @return A dataframe containing the ID and LeafArea
 #' @export
 #' @examples
@@ -27,7 +28,8 @@ map_leaf_area <- function( files,
                            imagej.path = NULL,
                            pixel = 300,
                            know.pixel.distance = 2.54, low.size = 0.005,
-                           trim.pixel = 100, trim.pixel2 = 150) {
+                           trim.pixel = 100, trim.pixel2 = 150,
+                           ...) {
 
   # create temp folder
   if(is.null(temp.folder) == TRUE){
@@ -75,7 +77,8 @@ map_leaf_area <- function( files,
     low.size = low.size, # !!!
     trim.pixel = trim.pixel, trim.pixel2 = trim.pixel2, # !!!
     save.image = TRUE,
-    path.imagej = imagej.path # !!!
+    path.imagej = imagej.path, # !!!
+    ...
   ))
 
   if (inherits(area, "try-error")) {
