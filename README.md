@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# areafoliar
+# areafoliar <img src="inst/areafoliar.svg" align="right" alt="areafoliar logo" width="190" />
 
 <!-- badges: start -->
 
@@ -11,11 +11,12 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://www.r-pkg.org/badges/version/areafoliar)](https://CRAN.R-project.org/package=areafoliar)
 <!-- badges: end -->
 
-The goal of areafoliar is to …
+An interface for the image processing program ‘ImageJ’, allowing leaf
+area measurements and result processing.
 
 ## Installation
 
-You can install the development version of areafoliar like so:
+You can install the development version of `areafoliar` like so:
 
 ``` r
 pak::pak("PaulESantos/areafoliar")
